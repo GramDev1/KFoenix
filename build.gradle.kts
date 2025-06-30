@@ -16,14 +16,16 @@ version = "0.1.4"
 
 repositories {
     mavenCentral()
-    maven("https://oss.sonatype.org/content/repositories/snapshots")
+    maven { url = uri("https://jitpack.io") }
+
 }
 
 
 dependencies {
     compile(kotlin("stdlib-jdk8"))
     compile("com.jfoenix:jfoenix:9.0.8")
-    compile("no.tornado:tornadofx:2.0.0-SNAPSHOT") {
+    compile("com.github.edvin:tornadofx2:master-17c1da8285-1")
+    {
         exclude("org.jetbrains.kotlin")
     }
 }
