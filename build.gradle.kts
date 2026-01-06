@@ -24,7 +24,7 @@ repositories {
 dependencies {
     compile(kotlin("stdlib-jdk8"))
     compile("com.jfoenix:jfoenix:9.0.8")
-    compile("com.github.edvin:tornadofx2:master-SNAPSHOT")
+    compile("com.github.GramDev1:tornadofx2:a6a2cf8bf3")")
     {
         exclude("org.jetbrains.kotlin")
     }
