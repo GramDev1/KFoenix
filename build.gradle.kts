@@ -15,11 +15,12 @@ version = "0.1.4"
 
 repositories {
     mavenCentral()
+	maven { url = uri("https://jitpack.io") }
 }
 
 dependencies {
     compile(kotlin("stdlib-jdk8"))
-    compile("com.jfoenix:jfoenix:8.0.8")
+    compile("com.github.GramDev1:tornadofx2:a6a2cf8bf3")
     compile("no.tornado:tornadofx:1.7.17") {
         exclude("org.jetbrains.kotlin")
     }
